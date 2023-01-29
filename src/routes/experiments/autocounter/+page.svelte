@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
 	import { onDestroy } from 'svelte';
 
 	let intervalId: NodeJS.Timeout;
@@ -29,6 +30,14 @@
 		clearInterval(intervalId);
 	});
 </script>
+
+<Breadcrumbs
+	links={[
+		{ link: '/', name: 'Home' },
+		{ link: '/experiments', name: 'Experiments' }
+	]}
+	current="Auto Counter"
+/>
 
 <p>{count}</p>
 

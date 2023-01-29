@@ -40,7 +40,7 @@
 />
 
 <label for="search">Search</label>
-<input bind:value={$value} placeholder="ex: Mobile, Laptop" name="search" id="search" />
+<input type="text" bind:value={$value} placeholder="ex: Mobile, Laptop" name="search" id="search" />
 
 <p>Value: {$value}</p>
 <p>Debounced Value: {$debouncedValue}</p>
