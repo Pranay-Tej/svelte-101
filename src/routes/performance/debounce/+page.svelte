@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
-	import { debouncedStore } from '$lib/utils/stores/debouncedStore';
+	import { createDebouncedStore } from '$lib/utils/stores/createDebouncedStore';
 	import { afterUpdate } from 'svelte';
 
 	interface Product {
@@ -9,7 +9,7 @@
 		description: string;
 	}
 
-	const { value, debouncedValue } = debouncedStore<string>('', 750);
+	const { value, debouncedValue } = createDebouncedStore<string>('', 750);
 
 	let productList: Product[] = [];
 
