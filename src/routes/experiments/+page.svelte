@@ -8,4 +8,7 @@
 	<li>
 		<a href="/experiments/autocounter">Auto Counter</a>
 	</li>
+	<li>
+		<a href="/experiments/autocomplete">Auto Complete</a>
+	</li>
 </ul>
