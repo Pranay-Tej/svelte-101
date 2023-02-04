@@ -9,4 +9,7 @@
 	<li>
 		<a href="/experiments">Experiments</a>
 	</li>
+	<li>
+		<a href="/auth/login">Authentication (SSR)</a>
+	</li>
 </ul>

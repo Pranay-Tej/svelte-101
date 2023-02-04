@@ -5,10 +5,14 @@
 button {
 	padding: 0.5em 1em;
 	border-radius: 2px;
-	background-color: hsl(214, 62%, 44%);
+	background-color: hsl(214, 78%, 40%);
 	color: hsl(0, 0%, 100%);
 }
 
 button:hover {
 	background-color: hsl(214, 62%, 50%);
+}
+
+a {
+	color: hsl(214, 78%, 40%);
 }
