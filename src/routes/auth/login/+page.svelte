@@ -26,5 +26,5 @@
 		<input id="password" name="password" bind:value={password} type="password" />
 	</label>
 
-	<button>Login</button>
+	<button class="btn">Login</button>
 </form>

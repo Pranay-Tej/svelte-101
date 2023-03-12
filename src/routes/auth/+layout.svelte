@@ -8,7 +8,7 @@
 <main>
 	{#if $page.data.userId}
 		<form action="/auth/logout" method="POST">
-			<button>Logout</button>
+			<button class="btn">Logout</button>
 		</form>
 	{/if}
 

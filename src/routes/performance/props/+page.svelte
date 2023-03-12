@@ -21,6 +21,7 @@
 <hr />
 
 <button
+	class="btn"
 	on:click={() => {
 		count = count + 1;
 	}}>Increase</button

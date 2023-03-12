@@ -42,11 +42,11 @@
 <p>{count}</p>
 
 {#if isRunning}
-	<button on:click={handlePause}>Pause</button>
-	<button on:click={handleReset}>Reset</button>
+	<button class="btn" on:click={handlePause}>Pause</button>
+	<button class="btn" on:click={handleReset}>Reset</button>
 {:else if !isRunning && count === 0}
-	<button on:click={handleStart}>Start</button>
+	<button class="btn" on:click={handleStart}>Start</button>
 {:else}
-	<button on:click={handleStart}>Resume</button>
-	<button on:click={handleReset}>Reset</button>
+	<button class="btn" on:click={handleStart}>Resume</button>
+	<button class="btn" on:click={handleReset}>Reset</button>
 {/if}

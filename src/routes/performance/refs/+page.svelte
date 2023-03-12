@@ -27,4 +27,4 @@
 	react. Can be used to store background values like timer Ids
 </p>
 
-<button on:click={handleIncrease}>Increase</button>
+<button class="btn" on:click={handleIncrease}>Increase</button>
