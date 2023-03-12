@@ -13,7 +13,7 @@
 	});
 </script>
 
-<form method="POST" class="grid gap-3 max-w-sm">
+<form method="POST" class="grid max-w-sm gap-3">
 	<label for="username"
 		>Username
 
