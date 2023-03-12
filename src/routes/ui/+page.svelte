@@ -14,4 +14,7 @@
 	<li>
 		<a href="/ui/modal">Modal</a>
 	</li>
+	<li>
+		<a href="/ui/tree">FolderTree</a>
+	</li>
 </ul>

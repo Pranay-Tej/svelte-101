@@ -7,7 +7,7 @@
 	{#each links as link, i}
 		<li>
 			<a href={link.link}>{link.name}</a>
-			&sol
+			&sol;
 		</li>
 	{/each}
 	<li>
