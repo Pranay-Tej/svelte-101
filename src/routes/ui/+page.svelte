@@ -11,4 +11,7 @@
 	<li>
 		<a href="/ui/text-input">Text Input</a>
 	</li>
+	<li>
+		<a href="/ui/modal">Modal</a>
+	</li>
 </ul>
