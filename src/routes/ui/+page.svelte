@@ -8,4 +8,7 @@
 	<li>
 		<a href="/ui/button">Button</a>
 	</li>
+	<li>
+		<a href="/ui/text-input">Text Input</a>
+	</li>
 </ul>
