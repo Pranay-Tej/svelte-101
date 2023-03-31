@@ -8,6 +8,7 @@
 - Experiments
   - AutoComplete
   - AutoCounter
+  - Mention Input (@)
 - Performance
   - Debounce
   - List performance
