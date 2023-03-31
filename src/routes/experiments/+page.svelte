@@ -11,4 +11,7 @@
 	<li>
 		<a href="/experiments/autocomplete">Auto Complete</a>
 	</li>
+	<li>
+		<a href="/experiments/mention-input">Mention Input</a>
+	</li>
 </ul>
